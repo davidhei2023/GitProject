@@ -1,0 +1,1000 @@
+ 1130  ll
+ 1131  cat cert.pem 
+ 1132  ./tlsHandshake.sh 
+ 1133  ll
+ 1134  ./tlsHandshake.sh 
+ 1135  ll
+ 1136  ./tlsHandshake.sh 
+ 1137  git status 
+ 1138  git clean -f
+ 1139  git status 
+ 1140  git clean -f -d
+ 1141  git status 
+ 1142  git clean -f -x
+ 1143  git status 
+ 1144  git clean -f -X
+ 1145  git status 
+ 1146  git clean ../.idea/
+ 1147  git clean -f ../.idea/
+ 1148  git clean -f ../redis/
+ 1149  git status 
+ 1150  git clean -f -d ../redis/
+ 1151  git status 
+ 1152  cd ..
+ 1153  ll
+ 1154  git clone https://github.com/davidhei2023/GitProject
+ 1155  cd GitProject/
+ 1156  ll
+ 1157  echo 123 >test1
+ 1158  ll
+ 1159  rm test1
+ 1160  ll
+ 1161  git-sim log -n 50 --all
+ 1162  python3 -m venv venv
+ 1163  echo $?
+ 1164  python -m venv venv
+ 1165  python3 -m venv venv
+ 1166  source venv/bin/activate
+ 1167  git-sim log -n 50 --all
+ 1168  cd
+ 1169  git-sim log -n 50 --all
+ 1170  git-sim
+ 1171  python3 -m venv venv
+ 1172  git-sim log -n 50 --all
+ 1173  python3 -m venv venv
+ 1174  pip3 install git-sim
+ 1175  cd PycharmProjects/GitProject/
+ 1176  ll
+ 1177  git-sim log -n 50 --all
+ 1178  git log
+ 1179  git reset --hard 800964a35b63f05b4248b2a3365293ace70dc69d
+ 1180  git status 
+ 1181  ll
+ 1182  cd git-sim_media/
+ 1183  ll
+ 1184  cd ..
+ 1185  git checkout main 
+ 1186  git merge arik/bugfix1 && git tag -a v1.0.2 -m "First tag"
+ 1187  git checkout john/feature1
+ 1188  git branch john/feature1-test
+ 1189  git checkout john/feature1-test 
+ 1190  ll
+ 1191  git reset --hard d40c13c515407b5313f79a890dc6b50c6820eaad
+ 1192  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1193  ll
+ 1194  echo 123 >c1.txt
+ 1195  git add c1.txt && git commit -m "c1"
+ 1196  git status
+ 1197  echo 123 >c10.txt
+ 1198  git add c10.txt && git commit -m "c10"
+ 1199  echo 123 >c11.txt
+ 1200  git add c11.txt && git commit -m "c11"
+ 1201  git checkout main 
+ 1202  echo 123 >c2.txt
+ 1203  git add c3.txt && git commit -m "c3"
+ 1204  git branch john/feature1
+ 1205  git checkout john/feature1
+ 1206  echo 123 >c3.txt
+ 1207  git add c3.txt && git commit -m "c3"
+ 1208  git checkout main 
+ 1209  git merge arik/bugfix1 && git tag -a "v1.0.2" -m "First tag"
+ 1210  git-sim log -n 50 --all
+ 1211  git merge arik/bugfix1 && git tag -af "v1.0.2" -m "First tag"
+ 1212  git checkout john/feature1
+ 1213  git checkout john/feature1-test 
+ 1214  echo 123 >c5.txt
+ 1215  git add c5.txt && git commit -m "c5"
+ 1216  git checkout main 
+ 1217  echo 123 >c6.txt
+ 1218  git add c6.txt && git commit -m "c6"
+ 1219  git checkout john/feature1
+ 1220  echo 123 >c7.txt
+ 1221  git add c7.txt && git commit -m "c7"
+ 1222  git checkout main 
+ 1223  git merge john/feature1 && git tag -af "v1.0.3" -m "Second tag"
+ 1224  git checkout john/feature1-test 
+ 1225  echo 123 >c8.txt
+ 1226  git add c8.txt && git commit -m "c8" && git tag -af "v1.0.3" -m "Third tag"
+ 1227  git checkout main 
+ 1228  echo 123 >c9.txt
+ 1229  git add c9.txt && git commit -m "c9"
+ 1230  git status 
+ 1231  git-sim log -n 50 --all
+ 1232  cd tesq
+ 1233  cd test/
+ 1234  ll
+ 1235  bash branches.sh 
+ 1236  cd ..
+ 1237  ll
+ 1238  cd .git
+ 1239  ll
+ 1240  rm -r rebase-merge/
+ 1241  ll
+ 1242  rm -r rebase-merge/
+ 1243  ll
+ 1244  rm -r rebase-merge/
+ 1245  ll
+ 1246  git-sim log -n 50 --all
+ 1247  cd ..
+ 1248  git clone https://github.com/davidhei2023/GitProject.git
+ 1249  ll
+ 1250  git status 
+ 1251  git rebase --edit-todo
+ 1252  git status 
+ 1253  git drop
+ 1254  git commit --amend
+ 1255  git log
+ 1256  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1257  git status 
+ 1258  git log 
+ 1259  git rebase --continue
+ 1260  git rebase --edit-todo
+ 1261  git rebase --continue
+ 1262  git rebase --edit-todo
+ 1263  git rebase --continue
+ 1264  git rebase --edit-todo
+ 1265  git rebase --continue
+ 1266  git status 
+ 1267  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1268  git status 
+ 1269  git checkout main 
+ 1270  git status 
+ 1271  git log
+ 1272  ll
+ 1273  echo "123" >c1_file
+ 1274  ll
+ 1275  git add c1_file && git commit -m "c1"
+ 1276  git-sim log -n 50 --all
+ 1277  source venv/bin/activate
+ 1278  ll
+ 1279  cd ..
+ 1280  history 
+ 1281  ll
+ 1282  git status 
+ 1283  cd test/
+ 1284  bash branches.sh 
+ 1285  git status 
+ 1286  git checkout origin/feature/version1 
+ 1287  git log
+ 1288  git checkout main 
+ 1289  git rebase -i a7b4fcc358a04523aa365d93fe3dadd827cae105
+ 1290  git rebase --continue
+ 1291  git log
+ 1292  cd ..
+ 1293  ll
+ 1294  git status 
+ 1295  git branch -D origin/feature/version1 
+ 1296  git res alon git@github.com:alonitac/GitProject.git
+ 1297  git remote -v
+ 1298  git fetch --all
+ 1299  git branch -a
+ 1300  git merge alon/*
+ 1301  git merge alon/*.*
+ 1302  git remote -a
+ 1303  git branch -a
+ 1304  nano restart_git.sh 
+ 1305  cd test/
+ 1306  ll
+ 1307  git status 
+ 1308  bash branches.sh 
+ 1309  git log
+ 1310  git rebase -i <sha1-commit-hash>
+ 1311  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1312  git rebase -i 620785c1cb70b0b863da00b1e1a1990a9d662ab8
+ 1313  git log 
+ 1314  git rebase -i ddbd9c921a0157bd18d2489c5b4fe18581e5f6a8
+ 1315  git log 
+ 1316  git rebase -i ddbd9c921a0157bd18d2489c5b4fe18581e5f6a8
+ 1317  git log 
+ 1318  git rebase -i ddbd9c921a0157bd18d2489c5b4fe18581e5f6a8
+ 1319  git log 
+ 1320  git rebase -i ddbd9c921a0157bd18d2489c5b4fe18581e5f6a8
+ 1321  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1322  git rebase -i ddbd9c921a0157bd18d2489c5b4fe18581e5f6a8
+ 1323  git log
+ 1324  git revert HEAD
+ 1325  git log
+ 1326  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1327  git log
+ 1328  history 
+ 1329  cd ..
+ 1330  git log
+ 1331  ll
+ 1332  echo "some text" >"c1_f"
+ 1333  ll
+ 1334  git add c1_f && git commit -m "c1"
+ 1335  git status 
+ 1336  git branch arik/bugfix1 
+ 1337  cd ..
+ 1338  ll
+ 1339  rm -r GitProject/
+ 1340  rm -r GitProject/ -y
+ 1341  rm -r -y GitProject/
+ 1342  rm -r GitProject/
+ 1343  y
+ 1344  ll
+ 1345  rm -r GitProject/
+ 1346  ll
+ 1347  cd GitProject/
+ 1348  ll
+ 1349  echo 123 >c1_file
+ 1350  cat c1_file 
+ 1351  git add c1_file && git commit -m "c1"
+ 1352  history 
+ 1353  python3 -m venv venv
+ 1354  ll
+ 1355  source venv/bin/activate
+ 1356  ll
+ 1357  git status 
+ 1358  git log
+ 1359  source venv/bin/activate
+ 1360  pip3 install git-sim
+ 1361  git-sim log -n 50 --all
+ 1362  history 
+ 1363  git tag --help
+ 1364  tag --help
+ 1365  git --help
+ 1366  git --help -a
+ 1367  ll
+ 1368  ll
+ 1369  pip3 install git-sim
+ 1370  git-sim log -n 50 --all
+ 1371  ll
+ 1372  git branch arik/bugfix1
+ 1373  git branch -b arik/bugfix1
+ 1374  git checkout -b arik/bugfix1
+ 1375  git checkout arik/bugfix1 
+ 1376  echo "123" >c10_file
+ 1377  git add c10_file && git commit -m "c10"
+ 1378  echo "123" >c11_file
+ 1379  git add c11_file && git commit -m "c11"
+ 1380  git checkout main 
+ 1381  echo "123" >c2_file
+ 1382  git add c2_file && git commit -m "c2"
+ 1383  git checkout -b john/feature1
+ 1384  echo "123" >c3_file
+ 1385  git add c3_file && git commit -m "c3"
+ 1386  git checkout main 
+ 1387  git merge arik/bugfix1 && git tag -a "v1.0.2" -m "First tag"
+ 1388  git checkout john/feature1
+ 1389  git branch john/feature1-test
+ 1390  git checkout john/feature1-test 
+ 1391  echo "123" >c5_file
+ 1392  git add c5_file && git commit -m "c5"
+ 1393  git checkout main 
+ 1394  echo "123" >c6_file
+ 1395  git add c6_file && git commit -m "c6"
+ 1396  git checkout john/feature1
+ 1397  echo "123" >c7_file
+ 1398  git add c7_file && git commit -m "c7"
+ 1399  git checkout main 
+ 1400  git merge john/feature1 && git tag -a "v1.0.3" -m "Second tag"
+ 1401  git checkout john/feature1-test 
+ 1402  echo "123" >c8_file
+ 1403  git add c8_file && git commit -m "c8" && git tag -a "john-only" -m "Third tag"
+ 1404  git checkout main 
+ 1405  echo "123" >c9_file
+ 1406  git add c9_file && git commit -m "c9"
+ 1407  git-sim log -n 50 --all
+ 1408  git status 
+ 1409  cd test/
+ 1410  ll
+ 1411  bash branches.sh 
+ 1412  git push --tags
+ 1413  git remote set-url origin git@github.com:davidhei2023/GitProject.git
+ 1414  echo $?
+ 1415  git push --tags
+ 1416  git push --tags origin main 
+ 1417  cd ..
+ 1418  git log
+ 1419  git checkout main 
+ 1420  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1421  git log
+ 1422  ll
+ 1423  nano david.sh
+ 1424  ll
+ 1425  git status 
+ 1426  git log 
+ 1427  echo 123 >c1_file
+ 1428  git add c1_file && git commit -m "c1"
+ 1429  git log 
+ 1430  git-sim log -n 50 --all
+ 1431  git log
+ 1432  ll
+ 1433  echo 123 >c1.txt
+ 1434  git checkout -b arik/bugfix1 
+ 1435  cd ..
+ 1436  rm -r GitProject/
+ 1437  y
+ 1438  ll
+ 1439  rm -r GitProject/
+ 1440  y
+ 1441  cd GitProject/
+ 1442  ll
+ 1443  echo 123 >c1_file
+ 1444  git add c1_file && git commit -m "c1"
+ 1445  git checkout -b arik/bugfix1
+ 1446  echo 123 >c10_file
+ 1447  git add c10_file && git commit -m "c10"
+ 1448  echo 123 >c11_file
+ 1449  git add c11_file && git commit -m "c11"
+ 1450  git checkout main 
+ 1451  echo 123 >c2_file
+ 1452  git add c2_file && git commit -m "c2"
+ 1453  git checkout -b john/feature1
+ 1454  echo 123 >c3_file
+ 1455  git add c3_file && git commit -m "c3"
+ 1456  git checkout main 
+ 1457  git merge john/feature1 && git tag v1.0.2
+ 1458  git-sim log -n 50 --all
+ 1459  git checkout john/feature1 
+ 1460  git checkout -b john/feature1-test
+ 1461  echo 123 >c5_file
+ 1462  git add c5_file && git commit -m "c5"
+ 1463  git checkout main 
+ 1464  echo 123 >c6_file
+ 1465  git add c6_file && git commit -m "c6"
+ 1466  git checkout john/feature1
+ 1467  echo 123 >c7_file
+ 1468  git add c7_file && git commit -m "c7"
+ 1469  git checkout main 
+ 1470  git merge john/feature1 && git tag v1.0.3
+ 1471  git checkout john/feature1-test 
+ 1472  echo 123 >c8_file
+ 1473  git add c8_file && git commit -m "c8" && git tag john-only
+ 1474  git checkout main 
+ 1475  echo 123 >c9_file
+ 1476  git add c9_file && git commit -m "c9"
+ 1477  git-sim log -n 50 --all
+ 1478  cd test/
+ 1479  ll
+ 1480  bash branches.sh 
+ 1481  git log
+ 1482  git checkout main 
+ 1483  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1484  git log
+ 1485  ll
+ 1486  cd ..
+ 1487  lll
+ 1488  ll
+ 1489  echo 123 >c1_file
+ 1490  git add c1_file && git commit -m "c1"
+ 1491  git checkout arik/bugfix1 
+ 1492  echo 123 >c10_file
+ 1493  git add c10_file && git commit -m "c10"
+ 1494  echo 123 >c11_file
+ 1495  git add c11_file && git commit -m "c11"
+ 1496  ll
+ 1497  git checkout main 
+ 1498  echo 123 >c2_file
+ 1499  git add c2_file && git commit -m "c2"
+ 1500  git checkout john/feature1
+ 1501  echo 123 >c3_file
+ 1502  git add c3_file && git commit -m "c3"
+ 1503  git checkout main 
+ 1504  git merge arik/bugfix1 && git tag v1.0.2
+ 1505  git checkout john/feature1
+ 1506  git checkout -b john/feature1-test 
+ 1507  git checkout john/feature1-test 
+ 1508  echo 123 >c5_file
+ 1509  git add c5_file && git commit -m "c5"
+ 1510  git checkout main 
+ 1511  echo 123 >c6_file
+ 1512  git add c6_file && git commit -m "c6"
+ 1513  git checkout john/feature1
+ 1514  echo 123 >c7_file
+ 1515  git add c7_file && git commit -m "c7"
+ 1516  git checkout main 
+ 1517  git merge john/feature1 && git tag v1.0.3
+ 1518  git checkout john/feature1-test 
+ 1519  echo 123 >c8_file
+ 1520  git add c8_file && git commit -m "c8" && git tag john-only
+ 1521  git checkout main 
+ 1522  echo 123 >c9_file
+ 1523  git add c9_file && git commit -m "c9"
+ 1524  git-sim log -n 50 --all
+ 1525  cd test/
+ 1526  bash branches.sh 
+ 1527  cd ..
+ 1528  rm -r GitProject/
+ 1529  y
+ 1530  ll
+ 1531  rm -r GitProject/
+ 1532  y
+ 1533  git-sim log -n 50 --all
+ 1534  cd GitProject/
+ 1535  git-sim log -n 50 --all
+ 1536  echo 123 >file_c1
+ 1537  git add file_c1 && git commit "c1"
+ 1538  git add file_c1 && git commit -m "c1"
+ 1539  git-sim log -n 50 --all
+ 1540  git checkout -b arik/bugfix1
+ 1541  echo 123 >file_c10
+ 1542  git add file_c10 && git commit -m "c10"
+ 1543  echo 123 >file_c11
+ 1544  git add file_c11 && git commit -m "c11"
+ 1545  git checkout main 
+ 1546  echo 123 >file_c2
+ 1547  git add file_c2 && git commit -m "c2"
+ 1548  git checkout -b john/feature1
+ 1549  echo 123 >file_c3
+ 1550  git add file_c3 && git commit -m "c3"
+ 1551  git checkout main 
+ 1552  git merge arik/bugfix1 && git tag v1.0.2
+ 1553  git checkout john/feature1 
+ 1554  git checkout -b john/feature1-test
+ 1555  echo 123 >file_c
+ 1556  rm file_c
+ 1557  echo 123 >file_c5
+ 1558  git add file_c5 && git commit -m "c5"
+ 1559  git checkout main 
+ 1560  echo 123 >file_c6
+ 1561  git add file_c6 && git commit -m "c6"
+ 1562  git checkout john/feature1
+ 1563  echo 123 >file_c7
+ 1564  git add file_c7 && git commit -m "c7"
+ 1565  git checkout main 
+ 1566  git merge john/feature1 && git tag v1.0.3
+ 1567  git checkout john/feature1-test 
+ 1568  echo 123 >file_c8
+ 1569  git add file_c8 && git commit -m "c8" && git tag john-only
+ 1570  git checkout main 
+ 1571  echo 123 >file_c9
+ 1572  git add file_c9 && git commit -m "c9"
+ 1573  git-sim log -n 50 --all
+ 1574  cd test/
+ 1575  bash branches.sh 
+ 1576  cd ..
+ 1577  ll
+ 1578  cd git-sim_media/
+ 1579  ll
+ 1580  cd GitProject/
+ 1581  ll
+ 1582  cd images/
+ 1583  ll
+ 1584  cp git-sim-log_01-15-24_10-18-25.jpg ~/PycharmProjects/GitProject/
+ 1585  cd ..
+ 1586  ll
+ 1587  cp git-sim-log_01-15-24_10-18-25.jpg branches_photo
+ 1588  ll
+ 1589  cp git-sim-log_01-15-24_10-18-25.jpg branches_photo.jpg
+ 1590  ll
+ 1591  rm branches_photo
+ 1592  rm git-sim-log_01-15-24_10-18-25.jpg 
+ 1593  ll
+ 1594  git push origin main --tags -m "Branches Completed"
+ 1595  git log
+ 1596  rm git-sim-log_01-15-24_10-18-25.jpg 
+ 1597  git-sim log -n 50 --all
+ 1598  git status 
+ 1599  git add branches_photo.jpg && git commit -m "photo added"
+ 1600  ll
+ 1601  git checkout john/feature1-test 
+ 1602  ll
+ 1603  git checkout main 
+ 1604  git-sim log -n 50 --all
+ 1605  cd test/
+ 1606  bash branches.sh 
+ 1607  git checkout john/feature1-test 
+ 1608  Git push origin john/feature1-test
+ 1609  git push origin john/feature1-test
+ 1610  git remote set-url origin git@github.com:davidhei2023/GitProject.git
+ 1611  git push origin john/feature1-test
+ 1612  git checkout main 
+ 1613  git push origin main 
+ 1614  echo test > test1
+ 1615  git add test1 && git commit -m "test"
+ 1616  git push origin main 
+ 1617  ll
+ 1618  cd ..
+ 1619  ll
+ 1620  cd
+ 1621  python3 -m pip -V
+ 1622  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ 1623  python3 get-pip.py --user
+ 1624  python3 -m pip install --user ansible
+ 1625  python3 -m pip install --upgrade --user ansible
+ 1626  ansible
+ 1627  nano branches.sh 
+ 1628  git status 
+ 1629  git merge origin/feature/version1
+ 1630  git merge origin/feature/version2
+ 1631  git status 
+ 1632  nano .gitignore 
+ 1633  git status 
+ 1634  git add .gitignore 
+ 1635  git commit -m "updating .gitignore"
+ 1636  git restore app.py
+ 1637  git status 
+ 1638  git add app.py 
+ 1639  git commit -m "merged version"
+ 1640  git checkout main 
+ 1641  cd test/
+ 1642  bash conflict.sh 
+ 1643  cd ..
+ 1644  git add app.py 
+ 1645  git commit -m "merged version2"
+ 1646  cd test/
+ 1647  bash conflict.sh 
+ 1648  git status 
+ 1649  git checkout main 
+ 1650  bash conflict.sh 
+ 1651  git log
+ 1652  git checkout origin/feature/version2
+ 1653  nano app.py 
+ 1654  git status 
+ 1655  git merge feature/myfeature 
+ 1656  git push origin main 
+ 1657  cd
+ 1658  nano .bashrc 
+ 1659  pip install pre-commit
+ 1660  pre-commit
+ 1661  cd PycharmProjects/GitProject
+ 1662  pre-commit
+ 1663  pre-commit --version
+ 1664  pre-commit run --all-files
+ 1665  git branch --a
+ 1666  git branch -a
+ 1667  git checkout feature/data_retention_policy 
+ 1668  ll
+ 1669  nano version.json 
+ 1670  cd test/
+ 1671  ll
+ 1672  set -e
+ 1673  VUL_COMMIT=$(git log --all --diff-filter=A --pretty=format:"%h" -- testa)
+ 1674  if [ "$(echo $VUL_COMMIT | md5sum | cut -d' ' -f1)" = "$(cat test/vul_hash)" ]; then   echo "Vulnerable commit found in your repo: $VUL_COMMIT";   exit 1; fi
+ 1675  ll
+ 1676  cd GitProject/
+ 1677  nano test.sh
+ 1678  chmod 744 test
+ 1679  ./test/
+ 1680  ll
+ 1681  chmod 744 test
+ 1682  chmod 744 test.sh 
+ 1683  ./test.sh 
+ 1684  ll
+ 1685  cd ..
+ 1686  rm -r GitProject/
+ 1687  y
+ 1688  ll
+ 1689  rm -r GitProject/
+ 1690  ll
+ 1691  cd GitProject/
+ 1692  ll
+ 1693  cd Gi
+ 1694  cd ..
+ 1695  rm -r GitProject/
+ 1696  y
+ 1697  cd GitProject/
+ 1698  git status 
+ 1699  cd
+ 1700  nano restart_git.sh
+ 1701  cd PycharmProjects/GitProject
+ 1702  git remote add alon git@github.com:alonitac/GitProject.git
+ 1703  git remote -v
+ 1704  cd
+ 1705  chmod 744 restart_git.sh 
+ 1706  cp restart_git.sh /PycharmProjects/GitProject/
+ 1707  cp restart_git.sh PycharmProjects/GitProject/
+ 1708  cd /PycharmProjects/GitProject
+ 1709  cd PycharmProjects/GitProject
+ 1710  ll
+ 1711  ./restart_git.sh 
+ 1712  git branch -a
+ 1713  git branch -D remotes/origin/feature/version1
+ 1714  git branch -D origin/feature/version1
+ 1715  git log
+ 1716  git status 
+ 1717  git push origin --delete feature/version1
+ 1718  git remote set-url origin git remote set-url origin
+ 1719  git remote set-url origin git@github.com:davidhei2023/GitProject.git
+ 1720  git push origin --delete feature/version1
+ 1721  git branch -a
+ 1722  ./restart_git.sh 
+ 1723  git branch -a
+ 1724  nano restart_git.sh 
+ 1725  ./restart_git.sh 
+ 1726  git branch -a
+ 1727  ./restart_git.sh 
+ 1728  ll
+ 1729  git branch -a
+ 1730  cd ..
+ 1731  cd GitProject/
+ 1732  nano restart_git.sh 
+ 1733  git branch -a
+ 1734  ./restart_git.sh 
+ 1735  git branch -a
+ 1736  ./restart_git.sh 
+ 1737  cd ..
+ 1738  rm -r GitProject/
+ 1739  y
+ 1740  ll
+ 1741  rm -r GitProject/
+ 1742  cd GitProject/
+ 1743  ll
+ 1744  echo 123 >file_c1
+ 1745  git add file_c1 && git commit -m "c1"
+ 1746  git checkout -b arik/bugfix1
+ 1747  echo 123 >file_c10
+ 1748  git add file_c10 && git commit -m "c10"
+ 1749  echo 123 >file_c11
+ 1750  git add file_c11 && git commit -m "c11"
+ 1751  git checkout main 
+ 1752  git checkout john/feature1
+ 1753  git checkout -b john/feature1
+ 1754  echo 123 >file_c3
+ 1755  git add file_c3 && git commit -m "c3"
+ 1756  git-sim log -n 50 --all
+ 1757  git checkout main 
+ 1758  git merge arik/bugfix1 && git tag v1.0.2
+ 1759  git checkout john/feature1 
+ 1760  git checkout -b john/feature1-test
+ 1761  echo 123 >file_c5
+ 1762  git add file_c5 && git commit -m "c5"
+ 1763  git checkout main 
+ 1764  echo 123 >file_c6
+ 1765  git add file_c6 && git commit -m "c6"
+ 1766  git checkout john/feature1
+ 1767  echo 123 >file_c7
+ 1768  git add file_c7 && git commit -m "c7"
+ 1769  git checkout main 
+ 1770  git merge john/feature1 && git tag v1.0.3
+ 1771  git checkout john/feature1-test 
+ 1772  echo 123 >file_c8
+ 1773  git add file_c8 && git commit -m "c8" && git tag john-only 
+ 1774  git checkout main 
+ 1775  echo 123 >file_c9
+ 1776  git add file_c9 && git commit -m "c9"
+ 1777  git-sim log -n 50 --all
+ 1778  cd test/
+ 1779  bash branches.sh 
+ 1780  cd ..
+ 1781  git log
+ 1782  git reset --hard
+ 1783  cd ..
+ 1784  ll
+ 1785  rm -r GitProject/
+ 1786  y
+ 1787  ll
+ 1788  cd GitProject/
+ 1789  ll
+ 1790  git status 
+ 1791  git branch --all 
+ 1792  ll
+ 1793  echo 123 >file_c1
+ 1794  git add file_c10
+ 1795  git commit -m "c1"
+ 1796  git checkout -b arik/bugfix1
+ 1797  git add file_c10
+ 1798  echo 123 >file_c10
+ 1799  git add file_c10
+ 1800  git commit -m "c10"
+ 1801  echo 123 >file_c11
+ 1802  git add file_c11
+ 1803  git commit -m "c11"
+ 1804  git checkout main 
+ 1805  echo 123 >file_c2
+ 1806  git add file_c2
+ 1807  git commit -m "c2"
+ 1808  git checkout -b john/feature1
+ 1809  echo 123 >file_c3
+ 1810  git add file_c3
+ 1811  git commit -m "c3"
+ 1812  git checkout main 
+ 1813  git merge arik/bugfix1 && git tag v1.0.2
+ 1814  git checkout john/feature1 
+ 1815  git checkout -b john/feature1-test
+ 1816  echo 123 >file_c5
+ 1817  git add file_c5
+ 1818  git commit -m "c5"
+ 1819  git checkout main 
+ 1820  echo 123 >file_c6
+ 1821  git add file_c6
+ 1822  git commit -m "c6"
+ 1823  git checkout john/feature1
+ 1824  echo 123 >file_c7
+ 1825  git add file_c7
+ 1826  git commit -m "c7"
+ 1827  git checkout main 
+ 1828  git merge john/feature1 && git tag v1.0.3
+ 1829  git checkout john/feature1-test 
+ 1830  echo 123 >file_c8
+ 1831  git add file_c8 && git commit -m "c8" && git tag john-only
+ 1832  git checkout main 
+ 1833  echo 123 >file_c9
+ 1834  git add file_c9 && git commit -m "c9"
+ 1835  git-sim log -n 50 --all
+ 1836  cd test/
+ 1837  bash branches.sh 
+ 1838  cd ..
+ 1839  git push --tags
+ 1840  git push origin --tags
+ 1841  git branch -a
+ 1842  git remote -v
+ 1843  git push -u origin main 
+ 1844  git checkout john/feature1-test 
+ 1845  git push origin john/feature1-test 
+ 1846  cd git-sim_media/
+ 1847  ll
+ 1848  cd GitProject/
+ 1849  ll
+ 1850  cd images/
+ 1851  ll
+ 1852  git add branches_photo.jpg && git commit -m "branches_photo.jpg added"
+ 1853  git status 
+ 1854  ll
+ 1855  cd ..
+ 1856  ll
+ 1857  git status 
+ 1858  ll
+ 1859  git checkout main 
+ 1860  git status 
+ 1861  ll
+ 1862  git add file_c9
+ 1863  git status 
+ 1864  cd git-sim_media/GitProject/images/
+ 1865  ll
+ 1866  cd ll
+ 1867  cd ..
+ 1868  git-sim log -n 50 --all
+ 1869  cd test/
+ 1870  bash branches.sh 
+ 1871  git status 
+ 1872  git checkout main 
+ 1873  bash branches.sh 
+ 1874  git push origin HEAD --force
+ 1875  cd ..
+ 1876  git log 
+ 1877  git-sim log -n 50 --all
+ 1878  git status 
+ 1879  git rebase -i 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1880  git rebase 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1881  git-sim log -n 50 --all
+ 1882  git rebase -i HEAD~10
+ 1883  git status 
+ 1884  git rebase --continue 
+ 1885  git rebase --edit-todo
+ 1886  git rebase --continue 
+ 1887  cd ..
+ 1888  rm -r GitProject/
+ 1889  y
+ 1890  ll
+ 1891  cd GitProject/
+ 1892  ll
+ 1893  git branch -a
+ 1894  echo 123 > file_c1
+ 1895  git add file_c1 
+ 1896  git commit -m "c1"
+ 1897  git checkout -b arik/bugfix1
+ 1898  echo 123 > file_c10
+ 1899  git add file_c10
+ 1900  git commit -m "c10"
+ 1901  echo 123 > file_c11
+ 1902  git add file_c11
+ 1903  git commit -m "c11"
+ 1904  git checkout main 
+ 1905  echo 123 > file_c2
+ 1906  git add file_c2
+ 1907  git commit -m "c2"
+ 1908  git checkout -b john/feature1
+ 1909  echo 123 > file_c3
+ 1910  git add file_c3
+ 1911  git commit -m "c3"
+ 1912  git checkout main 
+ 1913  git merge arik/bugfix1 && git tag v1.0.2
+ 1914  git checkout john/feature1 
+ 1915  git checkout -b john/feature1-test
+ 1916  echo 123 > file_c5
+ 1917  git add file_c5
+ 1918  git commit -m "c5"
+ 1919  git checkout main 
+ 1920  echo 123 > file_c6
+ 1921  git add file_c6
+ 1922  git commit -m "c6"
+ 1923  git checkout john/feature1
+ 1924  echo 123 > file_c7
+ 1925  git add file_c7
+ 1926  git commit -m "c7"
+ 1927  git checkout main 
+ 1928  git merge john/feature1 && git tag v1.0.3
+ 1929  git checkout john/feature1-test 
+ 1930  echo 123 > file_c8
+ 1931  git add file_c8 && git commit -m "c8" && git tag john-only
+ 1932  git checkout main 
+ 1933  echo 123 > file_c9
+ 1934  git add file_c9
+ 1935  git commit -m "c9"
+ 1936  git-sim log -n 50 --all
+ 1937  cd test/
+ 1938  bash branches.sh 
+ 1939  cd ..
+ 1940  git push origin main 
+ 1941  git remote set-url origin git@github.com:davidhei2023/GitProject.git
+ 1942  git push origin main 
+ 1943  Git checkout john/feature1-test
+ 1944  git checkout john/feature1-test
+ 1945  git push origin john/feature1-test
+ 1946  git checkout main 
+ 1947  cd git-sim_media/GitProject/images/
+ 1948  ll
+ 1949  cp git-sim-log_01-18-24_18-49-18.jpg ~/PycharmProjects/GitProject/branches_photo.jpg
+ 1950  cd ..
+ 1951  ll
+ 1952  git push origin main 
+ 1953  git add branches_photo.jpg 
+ 1954  git commit -m "branches_photo.jpg added"
+ 1955  git push origin main 
+ 1956  git-sim log -n 50 --all
+ 1957  git status 
+ 1958  git log
+ 1959  git push origin main 
+ 1960  ll
+ 1961  nano file_c1
+ 1962  git add file_c1 
+ 1963  git commit -m "test branches"
+ 1964  git push origin main 
+ 1965  history 
+ 1966  ll
+ 1967  git log 
+ 1968  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1969  git log
+ 1970  cp ~/branches.sh branches.sh
+ 1971  ll
+ 1972  ./branches.sh 
+ 1973  git log
+ 1974  cd test/
+ 1975  bash branches.sh 
+ 1976  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1977  nano branches.sh 
+ 1978  cd ..
+ 1979  nano branches.sh 
+ 1980  ./branches.sh 
+ 1981  git log
+ 1982  git reset --hard 95c7e64ef12823dbc34a1547353ab072d0202ff6
+ 1983  git log
+ 1984  nano branches.sh 
+ 1985  git checkout john
+ 1986  git checkout john/feature1
+ 1987  ll
+ 1988  cd ..
+ 1989  rm -r GitProject/
+ 1990  rm -r GitProject/ -y
+ 1991  rm -ry GitProject/
+ 1992  rm -r GitProject/ 
+ 1993  y
+ 1994  cd
+ 1995  nano branches.sh
+ 1996  chmod 744 branches.sh 
+ 1997  git secrets --register-aws
+ 1998  git secrets --install
+ 1999  sudo apt install git-secrets
+ 2000  git-secrets --version
+ 2001  git-secrets -version
+ 2002  git secrets --register-aws
+ 2003  git secrets --install
+ 2004  git secrets --scan
+ 2005  sudo apt update
+ 2006  git secrets --scan
+ 2007  git branch -a
+ 2008  git checkout feature/elasticsearch_helm_chart
+ 2009  git log
+ 2010  git checkout feature/upgrade_angular_version
+ 2011  git log
+ 2012  ll
+ 2013  nano some_file
+ 2014  nano some_file2
+ 2015  nano some_other_file
+ 2016  nano some_other_file2
+ 2017  nano test
+ 2018  nano testa
+ 2019  cd test/
+ 2020  ll
+ 2021  git status 
+ 2022  git branch -a
+ 2023  git log
+ 2024  git branch -a
+ 2025  git branch -d dev
+ 2026  git branch -d dev-feature 
+ 2027* 
+ 2028  git branch -a
+ 2029  git checkout feature_v1 
+ 2030  ll
+ 2031  git push origin --delete origin/dev 
+ 2032  git checkout main 
+ 2033  git push origin --delete origin/dev 
+ 2034  git ls-remote --heads origin
+ 2035  git push origin --delete dev
+ 2036  cd ..
+ 2037  history > command-history
+ 2038  ll
+ 2039  nano command-history 
+ 2040  cat command-history | grep rebase
+ 2041  git log
+ 2042  git checkout  main 
+ 2043  git log
+ 2044  git branch -a
+ 2045  git checkout main 
+ 2046  git branch -d dev 
+ 2047  git branch -d some-feature 
+ 2048  git branch -a
+ 2049  git log
+ 2050  git checkout main 
+ 2051  git checkout -b dev
+ 2052  git status 
+ 2053  git checkout -b dev/some-feature
+ 2054  git checkout -b some-feature
+ 2055  git branch -a
+ 2056  git branch -m dev/some-feature
+ 2057  git checkout -b dev/
+ 2058  git checkout -b dev
+ 2059  ll
+ 2060  git checkout -b dev/some-feature
+ 2061  git checkout -b dev dev/some-feature
+ 2062  git status 
+ 2063  git log
+ 2064  git branch -a
+ 2065  git checkout main 
+ 2066  git branch -d some-feature 
+ 2067  git push origin --delete origin/some-feature 
+ 2068  git push origin --delete some-feature 
+ 2069  git branch -a
+ 2070  git checkout dev 
+ 2071  git checkout -b some-feature dev 
+ 2072  git branch -a
+ 2073  echoe 123 >test-some-feature
+ 2074  echo 123 >test-some-feature
+ 2075  git add test-some-feature 
+ 2076  ll
+ 2077  git checkout HEAD~
+ 2078  git log
+ 2079  ll
+ 2080  git status 
+ 2081  git restore .
+ 2082  git status 
+ 2083  git restore *
+ 2084  git status 
+ 2085  ll
+ 2086  cd ..
+ 2087  rm -rf GitProject/
+ 2088  git clone https://github.com/davidhei2023/GitProject.git
+ 2089  cd GitProject/
+ 2090  ll
+ 2091  git log
+ 2092  git branch -a
+ 2093  git status 
+ 2094  git push origin --delete dev
+ 2095  git remote set-url origin git@github.com:davidhei2023/GitProject.git
+ 2096  git push origin --delete dev
+ 2097  git push origin --delete some-feature
+ 2098  git push origin --delete dev
+ 2099  git branch -a
+ 2100  echo 123 > periodic-test-3/4
+ 2101  echo 123 >periodic-test-3/4
+ 2102  echo 123 >periodic-test
+ 2103  git add periodic-test 
+ 2104  git commit -m "start here again"
+ 2105  git push origin main 
+ 2106  git status 
+ 2107  git checkout -b merge-GitExerciseOther
+ 2108  git branch -a
+ 2109  git remote add other https://github.com/alonitac/GitExerciseOther.git
+ 2110  https://github.com/alonitac/GitExerciseOther.git
+ 2111  git fetch other
+ 2112  git merge other/main --allow-unrelated-histories
+ 2113  git status 
+ 2114  git merge other/main --allow-unrelated-histories
+ 2115  git commit -m "Merge GitExerciseOther into GitProject"
+ 2116  cd test/
+ 2117  git status 
+ 2118  git checkout main 
+ 2119  bash merge_repos.sh 
+ 2120  ll
+ 2121  cd ..
+ 2122  ll
+ 2123  git status 
+ 2124  git merge merge-GitExerciseOther 
+ 2125  ll
+ 2126  git status 
+ 2127  git push origin main -m "4 questions answered"
+ 2128  git commit -m "4 questions answered"
+ 2129  history > history-of-commands
