@@ -5,10 +5,15 @@ on:
       - 'main'
 jobs:
   BuildSimulation:
-    # TODO abort this workflow if the git user triggered it is not the release manager
+    # TODO ***Done*** abort this workflow if the git user triggered it is not the release manager
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        run: |
+          if [ "${{ github.actor }}" != "davidhei2023" ]; then
+            echo "This unauthorized changes will not take affect"
+            exit 1
+          fi
       - name: Build
         run: |
           echo building and packing and app...
